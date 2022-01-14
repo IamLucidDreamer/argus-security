@@ -21,13 +21,13 @@ const EmployeeMonth = () => {
       <div className="px-4 sm:px-8 lg:px-12 2xl:px-0 mx-auto max-w-1366 pt-16">
         <div className="flex flex-row items-stretch w-full mt-8 md:mt-0 mb-8">
           <SideLine />
-          <h1 className="leading-tight text-3xl lg:text-4xl font-bold text-gray-3">
+          <h1 className="leading-tight text-3xl lg:text-4xl font-bold text-gray-3 whitespace-pre-line">
             {emp?.title}
           </h1>
         </div>
         <div className="flex flex-col-reverse md:flex-row items-center md:items-end">
           <div className="w-full md:w-1/2 mt-6 md:mt-0 mb-auto">
-            <p className="leading-relaxed text-lg text-gray-2 mb-6">
+            <p className="leading-relaxed text-lg text-gray-2 mb-6 whitespace-pre-line">
               <span className="text-red-1 text-2xl font-semibold">
                 {emp?.empName}
               </span>
@@ -61,7 +61,7 @@ const EmployeeMonth = () => {
                             alt=""
                             className="w-8 inline-block text-red-1 ml-4 -mb-4"
                           />
-                          <p className="leading-relaxed text-base lg:text-xl font-medium text-gray-2 bg-gray-200 px-6 py-6 lg:px-9 lg:py-8 shadow-speech">
+                          <p className="leading-relaxed text-base lg:text-xl font-medium text-gray-2 bg-gray-200 px-6 py-6 lg:px-9 lg:py-8 shadow-speech whitespace-pre-line">
                             {emp.description}
                           </p>
                           <div class="w-11 inline-block overflow-hidden -mb-10">

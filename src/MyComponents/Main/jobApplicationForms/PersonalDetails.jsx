@@ -1,8 +1,8 @@
 // We missed a page in the Apply now form.
 
-import React, { useEffect, useState } from 'react';
-import Select from 'react-select';
-import { Country, State, City } from 'country-state-city';
+import React, { useEffect, useState } from "react";
+import Select from "react-select";
+import { Country, State, City } from "country-state-city";
 
 const PersonalDetails = ({ setFormNo, formNo, formData, setFormData }) => {
   const [country, setCountry] = useState(null);
@@ -30,16 +30,16 @@ const PersonalDetails = ({ setFormNo, formNo, formData, setFormData }) => {
     }),
     control: () => ({
       // none of react-select's styles are passed to <Control />
-      display: 'flex',
+      display: "flex",
       fontWeight: 100,
-      backgroundColor: 'white',
+      backgroundColor: "white",
       borderRadius: 10,
-      padding: '15px 8px',
-      color: 'gray',
+      padding: "15px 8px",
+      color: "gray",
     }),
     singleValue: (provided, state) => {
       const opacity = state.isDisabled ? 0.5 : 1;
-      const transition = 'opacity 300ms';
+      const transition = "opacity 300ms";
       return { ...provided, opacity, transition };
     },
   };
@@ -62,7 +62,7 @@ const PersonalDetails = ({ setFormNo, formNo, formData, setFormData }) => {
               }
             />
             {!formData.firstname ? (
-              <div className="w-full text-xs text-red-1 mt-1">*Required</div>
+              <div className="w-full text-xs text-red-400 mt-1">*Required</div>
             ) : null}
           </div>
           <div className="w-full lg:ml-2">
@@ -127,8 +127,8 @@ const PersonalDetails = ({ setFormNo, formNo, formData, setFormData }) => {
                 borderRadius: 0,
                 colors: {
                   ...theme.colors,
-                  primary25: 'lightgray',
-                  primary: '#BA0913',
+                  primary25: "lightgray",
+                  primary: "#BA0913",
                 },
               })}
               value={country}
@@ -153,8 +153,8 @@ const PersonalDetails = ({ setFormNo, formNo, formData, setFormData }) => {
                 borderRadius: 0,
                 colors: {
                   ...theme.colors,
-                  primary25: 'lightgray',
-                  primary: '#BA0913',
+                  primary25: "lightgray",
+                  primary: "#BA0913",
                 },
               })}
               value={state}

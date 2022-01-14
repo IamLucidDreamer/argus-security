@@ -73,7 +73,9 @@ export default function Home() {
             <img src={accountable} alt="" className="w-16 p-1 mx-4 sm:mx-10" />
             <div>
               <p>100% Accountable</p>
-              <h1 className="font-bold">Direct Updates Regarding Incidents</h1>
+              <h1 className="font-bold">
+                Real Time Updates Regarding Incidents
+              </h1>
             </div>
           </div>
         </div>

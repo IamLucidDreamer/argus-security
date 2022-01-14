@@ -156,7 +156,7 @@ const Teams = () => {
                     <h2 className="text-xl title-font font-bold text-gray-900 mb-2">
                       {teammember.role}
                     </h2>
-                    <p className="leading-loose text-lg font-medium text-gray-2 mb-8">
+                    <p className="leading-loose text-lg font-medium text-gray-2 mb-8 whitespace-pre-line">
                       {teammember.description}
                     </p>
                   </div>

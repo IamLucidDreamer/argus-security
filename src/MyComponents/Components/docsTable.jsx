@@ -108,7 +108,7 @@ function DocsTable({
       columns,
       data,
       defaultColumn,
-      initialState: { pageSize: 5 },
+      initialState: { pageSize: 15 },
     },
     useFilters,
     useGlobalFilter,

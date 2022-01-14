@@ -33,7 +33,7 @@ const Hamburger = ({ open, setOpen }) => {
           }
         />
       </div>
-      <Mobilenav open={open} setOpen={setOpen} />
+      <Mobilenav openNav={open} setOpenNav={setOpen} />
     </div>
   );
 };

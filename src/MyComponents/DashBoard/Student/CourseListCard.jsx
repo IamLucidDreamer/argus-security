@@ -49,7 +49,9 @@ const CourseListCard = ({ c, startedAt, index }) => {
         >
           <div className="flex flex-col">
             <span>{c?.name}</span>
-            <span className="font-semibold text-lg">{c?.description}</span>
+            <span className="font-semibold text-lg whitespace-pre-line">
+              {c?.description}
+            </span>
           </div>
         </div>
         <div className="flex flex-col justify-center text-center lg:w-2/12 px-3 py-3 text-gray-2 rounded-xl border-2 mx-1 my-1 lg:my-0 text-lg lg:text-sm xl:text-lg">

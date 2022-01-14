@@ -46,7 +46,7 @@ function Message({ message }) {
                     <div className="font-bold mt-4 mb-1.5">
                       Subject : {m.subject}
                     </div>
-                    {m.message}
+                    <p className="whitespace-pre-line">{m.message}</p>
                     <div className="text-xs font-bold text-right mt-1">
                       {new Date(m.createdAt).toLocaleDateString("en-GB")}{" "}
                       <span className="">

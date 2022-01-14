@@ -68,7 +68,7 @@ export default function PurchaseCourse() {
                         {c?.price}
                       </h1>
                     </div>
-                    <p className="leading-relaxed text-base font-medium text-gray-2 mb-6">
+                    <p className="leading-relaxed text-base font-medium text-gray-2 mb-6 whitespace-pre-line">
                       {c?.description}
                     </p>
                     <button

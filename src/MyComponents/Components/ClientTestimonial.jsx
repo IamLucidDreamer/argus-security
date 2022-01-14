@@ -133,7 +133,9 @@ const ClientTestimonial = ({ testimonial }) => {
                       />
                     </div>
                     <div className="px-6 sm:px-6 md:px-10 pb-6 pt-2 w-full h-56">
-                      <p className="leading-loose mb-6">{data?.description}</p>
+                      <p className="leading-loose mb-6 whitespace-pre-line">
+                        {data?.description}
+                      </p>
                       <div className="inline-flex items-center">
                         <img
                           src={`${API}/testimonal/get-photo/${data._id}`}
