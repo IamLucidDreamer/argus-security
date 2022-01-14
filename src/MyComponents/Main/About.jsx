@@ -13,7 +13,7 @@ class About extends Component {
         <div className="text-gray-600 body-font bg-no-repeat bg-cover bg-center bg-aboutbg">
           <div className="container mx-auto flex px-5 py-20 md:py-40 items-center justify-center flex-col">
             <div className="text-center lg:w-2/3 w-full">
-              <h1 className="title-font sm:text-6xl text-3xl mb-4 font-bold font-for-para text-white">
+              <h1 className="title-font sm:text-6xl text-3xl mb-4 font-bold font-for-para text-white ">
                 ABOUT US
               </h1>
             </div>
